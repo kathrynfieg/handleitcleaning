@@ -2,6 +2,6 @@
 import HelloWorld from './components/HelloWorld.vue';
 </script>
 
-<template>APP</template>
+<template><div class="bg-slate-400 border border-black">APP</div></template>
 
 <style scoped></style>
