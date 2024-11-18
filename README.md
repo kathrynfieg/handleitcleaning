@@ -4,8 +4,10 @@
 
 - setup file based routing
 - Scaffold pages
+- setup quick routing
 - setup layouts
   - main and services layout
+- setup components
 - setup tailwind classes - main colors
 - add assets (images, icons, logos)
 - setup PWA
