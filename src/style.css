@@ -1,3 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;700&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  /* font-family: 'IBM Plex Mono', monospace; */
+  /* font-family: 'Rubik', sans-serif; */
+  /* font-family: 'Playfair Display', serif; */
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Geologica', sans-serif;
+}
