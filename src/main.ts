@@ -4,6 +4,7 @@ import { routes } from 'vue-router/auto-routes';
 
 import './style.css';
 import 'vuetify/lib/styles/main.css';
+import '@mdi/font/css/materialdesignicons.css';
 
 import { createVuetify } from 'vuetify';
 import * as components from 'vuetify/components';
