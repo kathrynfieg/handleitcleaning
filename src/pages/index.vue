@@ -1,1 +1,1 @@
-<template>INDEX</template>
+<template>Home</template>

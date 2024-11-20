@@ -1,0 +1,1 @@
+<template>privacy policy</template>

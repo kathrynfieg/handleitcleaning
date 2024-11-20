@@ -1,0 +1,1 @@
+<template>routine residential</template>
