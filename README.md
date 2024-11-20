@@ -5,11 +5,11 @@
 - setup file based routing
 - Scaffold pages
 - setup quick routing
+- setup first components - navbar, footer
 - setup layouts
   - main and services layout
-- setup components
 - setup tailwind classes - main colors
-- add assets (images, icons, logos)
+- add assets (images, icons, logos, headers colors)
 - setup PWA
 
 ### PAGES:

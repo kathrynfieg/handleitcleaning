@@ -12,7 +12,7 @@ const drawer = ref(null);
 
 <template>
   <nav
-    class="flex items-center justify-between w-dvw py-2 pl-4 pr-6 sticky top-0 bg-slate-300"
+    class="flex items-center justify-between w-dvw py-2 pl-4 pr-6 sticky top-0 border border-b-black"
   >
     <RouterLink to="/">
       <img class="w-40 lg:w-52" src="../assets/logos/logo-coloured.png" />
@@ -88,13 +88,14 @@ const drawer = ref(null);
             </RouterLink>
           </div>
         </v-navigation-drawer>
-
-        <v-btn
-          class="ma-2"
-          icon="mdi-menu"
-          variant="text"
-          @click.stop="drawer = !drawer"
-        />
+        <div class="lg:hidden">
+          <v-btn
+            class="ma-2"
+            icon="mdi-menu"
+            variant="text"
+            @click.stop="drawer = !drawer"
+          />
+        </div>
       </v-layout>
     </div>
   </nav>
